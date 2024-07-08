@@ -1,0 +1,16 @@
+{
+  "name": "phrase-parser",
+  "version": "1.0.0",
+  "description": "A program to give you the 100 most common three word sequences.",
+  "main": "parse-phrases.js",
+  "scripts": {
+    "start": "cat ./text/file1.txt | node parse-phrases.js text/file2.txt text/file3.txt",
+    "large": "node parse-phrases.js text/moby-dick.txt",
+    "test": "jest"
+  },
+  "author": "It's secret :)",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
